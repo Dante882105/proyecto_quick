@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/007d3fe8b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quick</title>
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="/img/pokemon.webp" alt="">
+        <input class="search" type="text" placeholder="  Search"/>
+    </nav>
+    
+    <main>
+        <aside id="filters">
+            <h1>Filters</h1>
+            <div id="type">
+                <h1>Type</h1>
+                <form method="GET">
+                    <ul> 
+                        <li class="one">
+                            <input type="checkbox" class="checkbox" value="bug">
+                            <label for="">bug</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="electric">
+                            <label for="">Electric</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="water">
+                            <label for="">Water</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="ground">
+                            <label for="">Ground</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="fire">
+                            <label for="">Fire</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="ice">
+                            <label for="">Ice</label>
+                            <br>
+
+                            <input type="checkbox"
+                            class="checkbox" value="flying">
+                            <label for="">Flying</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="rock">
+                            <label for="">Rock</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="normal">
+                            <label for="">Normal</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="gross">
+                            <label for="">Gross</label>
+                            <br>
+                        </li>
+                        
+                        <li class="tow">
+                            <input type="checkbox" class="checkbox" value="psychic">
+                            <label for="">Psychic</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="fighting">
+                            <label for="">Fighting</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="fairy">
+                            <label for="">Fairy</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="sinister">
+                            <label for="">Sinister</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="dragon">
+                            <label for="">Dragon</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="steel">
+                            <label for="">Steel</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="plant">
+                            <label for="">Plant</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="poison">
+                            <label for="">Poison</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="ghost">
+                            <label for="">Ghost</label>
+                            <br>
+
+                            <input type="checkbox" class="checkbox" value="unknow">
+                            <label for="">Unknow</label>
+                            <br>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+            <div id="colors">
+                <h1>Color</h1>
+                <div class="color">
+                    <div class="blue"></div>
+                    <div class="amarillo"></div>
+                    <div class="red"></div>
+                    <div class="cafe"></div>
+                    <div class="naranja"></div>
+                    <div class="verde"></div>
+                    <div class="violeta"></div>
+                    <div class="blanco"></div>
+                    <div class="morado"></div>
+                    <div class="negro"></div>
+                </div>
+            </div>
+
+            <div id="gender">
+                <h1>Gender</h1>
+                    <form method="GET">
+                        <ul>
+                            <li>
+                                <input type="radio" value="all" id="all">
+                                <label for="all">All</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="male" id="male">
+                                <label for="male">Male</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="male" id="male">
+                                <label for="female">Female</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="undefined" id="undefined">
+                                <label for="undefined">Undefined</label>
+                            </li>
+                        </ul>
+                    </form>
+            </div>
+
+        </aside>
+            
+        <aside id="contenedor" >
+            
+            <div class="info">
+                <h1>Choose a pokemon to get more information</h1>
+                <div id="galeria"></div>
+                <button id="load">Load More</button>
+                
+            </div>
+        </aside>
+    </main>
+    <div id="banner" class="banner hidden">
+        <i id="close" class="fa-solid fa-xmark"></i>
+
+            <div class="photo">
+                <img id="image" src="" alt="">
+            </div>
+
+            <div class ="detail">
+                <h1 class="title">
+                    pokemon
+                </h1>
+
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quasi!
+                </p>
+
+                <table>
+                   <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                    <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                    <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                    <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                    <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                    <tr>
+                        <td>prueba</td>
+                        <td>prueba</td>
+                    </tr>
+                </table>
+
+                <div class="detaileType">
+                    <h1>Types</h1>
+                </div>
+
+                </div><div class="evolution">
+             
+            </div>
+        
+    </div>
+    <script src="/proyecto_quick/jscript/app.js"></script>
+</body>
+</html>

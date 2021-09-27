@@ -1,0 +1,208 @@
+*{
+    font-family: Arial;
+    font-size: 12px;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border-bottom: 1px solid black;
+}
+
+nav img{
+    width: 100px;
+    height: 40px;
+    margin-left: 5%;
+}
+
+nav input{
+    margin: 1% 0% 1% 60%;
+    height: 15px;
+    width: 250px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+
+.search::placeholder{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0 12% 0 12%;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+main #filters{
+    width: 25%;
+    height: 250px;
+}
+
+main #type, #colors, #gender{
+    border-bottom: 1px solid black;
+}
+
+main div li{
+    margin: 1px auto 1px -40px;
+}
+
+#type ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+main .color {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 30px 10px 30px;
+}
+
+.color div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.blue{background-color: blue;}
+.amarillo{background-color: yellow;}
+.red{background-color: red;}
+.cafe{background-color: brown;}
+.naranja{background-color: orangered;}
+.verde{background-color: green;}
+.violeta{background-color: violet;}
+.blanco{background-color: whitesmoke;}
+.morado{background-color: blueviolet;}
+.negro{background-color: black;}
+
+main #contenedor{
+    height: 100%;
+    width: 80%;
+    border-left: 1px solid black;
+}
+
+.info h1{
+    margin-left: 15px;
+}
+
+#galeria{
+    margin: 2px 2px 25px 2px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 250px 250px;
+}
+
+.pokemon{
+    width: 90%;
+    height: 90%;
+    margin: 4%;
+    border: 1px solid black;
+}
+
+.pokemon div{
+    width: 80%;
+    height: 80%;
+    margin: 5% 10% 0 10%;
+    border: 1px solid black;
+}
+
+.pokemon h1{
+    text-align: center;
+}
+
+#load{
+    position: relative;
+    left: 40%;
+    bottom: 10%;
+    height: 20px;
+    width: 100px;
+    margin: 2px 0 25px;
+}
+
+/* Agregando un nuevo valor para el banner */
+
+#banner{
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    width: 70%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: rgb(201, 201, 201);
+}
+
+#banner i{
+    position: absolute;
+    top: 2%;
+    left: 95%;
+    
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%;
+}
+
+.photo{
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    border: 1px solid black;
+}
+
+.detail{
+    margin: 5%;
+    height: 90%
+}
+
+.type{
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.evolution{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 180%;
+    margin: 0px 10%;
+    border-top: 1px solid black;
+}
+
+.evolution img{
+    margin-top: 2%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.evolution i{
+    margin-top: 8%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+table{
+    border: 1px solid black;
+}
+
